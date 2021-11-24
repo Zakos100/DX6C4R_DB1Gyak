@@ -1,0 +1,4 @@
+CREATE TABLE Oktato(neptunkod CHAR(6) PRIMARY KEY, nev CHAR(50), tanszek CHAR(30));
+CREATE TABLE Hallgato(neptunkod CHAR(6) PRIMARY KEY, nev CHAR(50), tankor CHAR(20), szuld DATE, irszam INT, varos CHAR(20), utca CHAR(50), hsz INT);
+CREATE TABLE Targy(kod CHAR(10) PRIMARY KEY, kredit INT, megnevezes CHAR(20),neptunkod CHAR(6), FOREIGN KEY(neptunkod) REFERENCES oktato(neptunkod));
+CREATE TABLE Hallgat(félév INT, vizsgajegy INT, neptunkod CHAR(6), kod CHAR(10), FOREIGN KEY(neptunkod) REFERENCES hallgato(neptunkod), FOREIGN KEY(kod) REFERENCES TARGY(kod));
