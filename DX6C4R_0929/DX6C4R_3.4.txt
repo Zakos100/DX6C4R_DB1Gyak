@@ -1,0 +1,28 @@
+package adatbgyak3;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+public class DX6C4R_3.4 {
+
+	public static void main(String[] args) {
+		
+		String sor;
+		String[] szavak;
+		int sorid= 0;
+		try
+		{
+			BufferedReader br= new BufferedReader(new FileReader("sads"));
+			while((sor = br.readLine()) != null)
+			{
+				System.out.println(sor.toUpperCase());
+			}
+			br.close();
+			System.out.println("A konvert�l�s k�sz");
+		} catch(Exception ee)
+		{
+			ee.printStackTrace();
+		}
+	}
+
+}
