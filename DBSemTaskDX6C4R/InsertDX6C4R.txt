@@ -1,0 +1,49 @@
+INSERT INTO Ugyfel VALUES ('kissjanos@citromail.hu', 'Kiss János', 'Magyarország', 'Miskolc','Középszer utca',77,3529); 
+INSERT INTO Ugyfel VALUES ('zarandiakos@gmail.com', 'Zarándi Ákos', 'Magyarország', 'Mezőcsát','Széchenyi utca',47,3450);
+INSERT INTO Ugyfel VALUES ('mezeimate@gmail.com', 'Mezei Máté László', 'Magyarország', 'Mezőcsát','Kinizsi utca',47,3450);
+INSERT INTO Ugyfel VALUES ('kovacsmate@outlook.com', 'Kovács Máté Béla', 'Magyarország', 'Miskolc','Eper utca',18,3535);
+INSERT INTO Ugyfel VALUES ('bradpitt@outlook.com', 'Brad Pitt', 'U.S.A', 'Shawnee', 'Beccon Rd',32,74801);
+
+INSERT INTO Gyarto VALUES ("LG","Dél-Korea","https://www.lg.com/hu");
+INSERT INTO Gyarto VALUES ("Dyson", "Egyesült Királyság", "https://www.dyson.hu");
+INSERT INTO Gyarto VALUES ("Xiaomi", "Kína", "https://xiaomishop.hu/");
+INSERT INTO Gyarto VALUES ("Cyma", "Kína", "https://cymagun.com");
+INSERT INTO Gyarto VALUES ("Maggi", "Svájc", "https://www.maggi.hu");
+
+INSERT INTO Termekek VALUES (1,"Hajszárító", 150000, "Supersonic",3,"Dyson");
+INSERT INTO Termekek VALUES (2,"TV", 2169990, "4K HDR Smart OLED TV",1,"LG");
+INSERT INTO Termekek VALUES (3,"Instant leves", 180, "PárPerc Csípős csirke ízű", 20,"Maggi");
+INSERT INTO Termekek VALUES (4,"AR47 QBS Airsoft fegyver", 92800, "Quad Rail",2,"Cyma");
+INSERT INTO Termekek VALUES (5,"Mobiltelefon", 85000, "Redmi note 9 pro",10,"Xiaomi");
+INSERT INTO Termekek VALUES (6,"Felülfagyasztós hűtőszekrény", 295000, "GTF916PZPYD",4,"LG");
+INSERT INTO Termekek VALUES (7,"Elektromos roller", 180000, "Mi Electric Scooter 3 Onyx Black",1,"Xiaomi");
+
+INSERT INTO Kosar VALUES (1,"1.vásárló",3600);
+INSERT INTO Kosar VALUES (2,"2.vásárló",185600);
+INSERT INTO Kosar VALUES (3,"3.vásárló",450000);
+INSERT INTO Kosar VALUES (4,"4.vásárló",180000);
+INSERT INTO Kosar VALUES (5,"5.vásárló",2169990);
+
+INSERT INTO Vasarlas VALUES ("zarandiakos@gmail.com",1);
+INSERT INTO Vasarlas VALUES ("mezeimate@gmail.com",2);
+INSERT INTO Vasarlas VALUES ("kovacsmate@outlook.com",3);
+INSERT INTO Vasarlas VALUES ("bradpitt@outlook.com",4);
+INSERT INTO Vasarlas VALUES ("kissjanos@citromail.hu",5);
+
+
+INSERT INTO tartalom VALUES (3,1,180,20);
+INSERT INTO tartalom VALUES (4,2,92800,2);
+INSERT INTO tartalom VALUES (1,3,150000,3);
+INSERT INTO tartalom VALUES (7,4,180000,1);
+INSERT INTO tartalom VALUES (2,5,2169990,1);
+
+INSERT INTO Ugyfel_Telefonszam VALUES(06203274899,"zarandiakos@gmail.com");
+INSERT INTO Ugyfel_Telefonszam VALUES(06307723495,"mezeimate@gmail.com");
+INSERT INTO Ugyfel_Telefonszam VALUES(06709174327,"kissjanos@citromail.hu");
+INSERT INTO Ugyfel_Telefonszam VALUES(06506567823,"kovacsmate@outlook.com");
+INSERT INTO Ugyfel_Telefonszam VALUES(+14255550100,"bradpitt@outlook.com");
+INSERT INTO Ugyfel_Telefonszam VALUES(06304654232,"zarandiakos@gmail.com");
+
+
+
+
